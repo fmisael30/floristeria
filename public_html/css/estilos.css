@@ -21,7 +21,7 @@ and open the template in the editor.
     font-size: 20px;
     background: chartreuse;
     padding: 15px;
-    border-radius: 10px
+    border-radius: 10px;
 }
 #cabecera span{
     color:  buttontext;
@@ -47,8 +47,23 @@ and open the template in the editor.
     
 }
 #pie{
-    background:  aqua
+    background:  aqua;
 }
 #pie img{
-    width: 30px
+    width: 30px;
+}
+/* aqui estamos definiendo el mismo color y tamaño de letra para los enlances */
+a:link, a:visited {
+    font-size: 25px;
+    background: chartreuse;
+    text-decoration: none;
+}
+a:hover{
+    background: blue;
+    color: chartreuse;
+    
+    
+}
+#menu ul li:hover{
+    background: blue;
 }

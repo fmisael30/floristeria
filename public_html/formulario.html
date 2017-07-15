@@ -9,23 +9,53 @@ and open the template in the editor.
         <title> formulario de contacto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/estiloform.css">
     </head>
     <body>
-        <div>  
+        <div>
+             <div id="cabecera"> 
+        Floristeria Jimenez</br>
+        <span> Taller floral</span>
+        <div id="menu">
+        <ul>
+            <li> <a href="index.html">inicio</a> </li>
+            <li>quienes somos </li>
+            <li>tienda </li>
+            <li>catalogo </li>
+            <li>contacto </li>
+    </ul>
+    </div>
+    </div>
             <h1> formulario de contacto </h1>
             <form> 
-                <label for="nombre"> entre su nombre:</label>
+                <div>
+                <label for="nombre"> Entre su nombre:</label>
                 <input type="text" id=" nombre"/>
-                
-                 <label for="telefono"> telefono:</label>
+                </div>
+                <div>
+                 <label for="telefono"> Telefono:</label>
                 <input type="text" id= " telefono"/>
-                
+                </div>
+                <div>
                  <label for="correo"> e-mail:</label>
                 <input type="text" id=" correo"/> 
-                
-                 <label for="asunto "> explique el asunto que desea tratar:</label>
+                </div>
+                <div>
+                <label for="asunto "> Explique el asunto que desea tratar:</label>
                  <textarea id="asunto" cols="50" rows="10"></textarea>
-                 <button type="submit"> enviar </button>   
+                 <button type="submit"> Enviar </button>  
+                </div>
             </form>
+             </div>
+    <div id="pie"> 
+     Calle Ira #25 jardines del cerro. santiago de los caballeros
+     republica dominicana.</br>
+     Tel. 829-581-1234 y 809-583-1234</br>
+     <img src="imagenes/img2.jpg"/>
+     <img src="imagenes/img3.jpg"/>
+     <img src="imagenes/img4.jpg"/>
+    </div>
+    
     </body>
 </html>
